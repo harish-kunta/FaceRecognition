@@ -1,10 +1,9 @@
 import cv2
-import numpy as np
 
 faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam=cv2.VideoCapture(0)
 
-id=raw_input('enter user id')
+id=input("Enter the ID")
 sampleNumber=0
 while(True):
     ret,img=cam.read()
