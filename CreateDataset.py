@@ -3,7 +3,7 @@ import cv2
 faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam=cv2.VideoCapture(0)
 
-id=input("Enter the ID")
+id=input("Enter your ID.\n")
 sampleNumber=0
 while(True):
     ret,img=cam.read()

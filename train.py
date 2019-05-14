@@ -1,9 +1,10 @@
-import cv2,os
+import os
 import numpy as np
+import cv2
 from PIL import Image
 
 
-recognizer =  cv2.createLBPHFaceRecognizer()
+recognizer =cv2.face.LBPHFaceRecognizer_create()
 detector= cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
 
 def getImagesAndLabels(path):
