@@ -1,7 +1,7 @@
 # Facial Recognition
 Recognize faces using Python with the world's simplest face recognition library.
 
-![chatbot](Recognize faces using Python with the world's simplest face recognition library.)
+![chatbot](https://i.ibb.co/hdzkD8g/Face-Recognition.jpg)
 
 ### Requirements
     Python = 2.x.x
