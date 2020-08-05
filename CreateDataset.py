@@ -18,7 +18,6 @@ while(True):
     cv2.waitKey(1)
     if (sampleNumber>20):
         break
-    
 
 cam.release()
 cv2.destroyAllWindows()
