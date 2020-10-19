@@ -30,3 +30,11 @@ Recognize faces using Python with the world's simplest face recognition library.
     ```bash
     python recogniser.py
     ```
+
+## Built With
+
+* [PyCharm](https://www.jetbrains.com/pycharm/) - Python Development tool
+
+## Authors
+
+* **Harish Kunta** - *Initial work* - [Harish Kunta](https://github.com/harishtanu007)
